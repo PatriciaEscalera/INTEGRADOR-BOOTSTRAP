@@ -1,11 +1,11 @@
-// Obtener elementos del DOM
+
 const cantidadInput = document.getElementById('cantidad');
 const opcionesSelect = document.getElementById('opciones');
 const borrarButton = document.getElementById('compras1');
 const resumenButton = document.getElementById('compras');
 const montoAPagarDiv = document.getElementById('monto-a-pagar');
 
-// Función para calcular el monto a pagar
+
 function calcularMontoAPagar() {
   const cantidad = parseInt(cantidadInput.value);
   const categoria = opcionesSelect.value;
@@ -23,10 +23,10 @@ function calcularMontoAPagar() {
   montoAPagarDiv.textContent = 'Total a pagar: $' + montoAPagar;
 }
 
-// Manejador de evento para el botón Resumen
+
 borrarButton.addEventListener('click', calcularMontoAPagar);
 
-// Manejador de evento para el botón Borrar
+
 resumenButton.addEventListener('click', function () {
   cantidadInput.value = '';
   opcionesSelect.selectedIndex = 0;
