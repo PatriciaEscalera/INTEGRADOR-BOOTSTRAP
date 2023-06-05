@@ -196,6 +196,7 @@ h6{
 .fototexto{
     
     display: flex;
+
 }
 .flex-container{
     display: flex;
@@ -312,11 +313,11 @@ h6{
     margin-top: 10px;
     padding-top: 10px;
 }
-.card-body{
+.card-body1{
     height: 220px;
     
 }
-.card-body p{
+.card-body1 p{
     text-align: center;
    
     margin-top: 40px;
@@ -327,9 +328,11 @@ h6{
     padding-top: 10px;
     
 }
-.form-floating {
+.form-floating1 {
+    margin-top: 10px;
     margin-left: 255px;
     margin-right: 255px;
+    
 }
 .entradas{
     display: flex;
