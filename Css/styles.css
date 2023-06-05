@@ -285,3 +285,99 @@ h6{
 }
 
 
+.container-tickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+   
+   
+}
+.estudiante{
+     border: solid 2px blue;
+}
+.trainee{
+    border: solid 2px rgb(6, 163, 6);
+}
+.junior{
+    border: solid 2px rgb(255, 204, 0);
+}
+.card-title{
+    text-align: center;
+   margin-top: 20px;
+}
+.card-subtitle{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.card-body{
+    height: 220px;
+    
+}
+.card-body p{
+    text-align: center;
+   
+    margin-top: 40px;
+}
+.venta{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.form-floating {
+    margin-left: 255px;
+    margin-right: 255px;
+}
+.entradas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.input-cantidad{
+    width: 360px;
+    border-radius: 3px;
+    
+
+}
+.opciones {
+    display: inline-block;
+    margin-right: 5px;
+    width: 360px;
+    margin-left: 30px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  .btn-custom{
+    background-color: #a7d6a8;
+    border-color: #8dbb8e;
+    color: #fff;
+    width: 360px;
+    justify-content: center;
+    text-align: center;
+  }
+  .cobrar{
+    margin-left: 255px;
+  }
+  #monto-a-pagar{
+    background-color: lightblue; 
+    padding: 10px; 
+    margin-top: 10px;
+    margin-left: 255px;
+    margin-right: 255px;
+  }
+  
+  
+  
+  
